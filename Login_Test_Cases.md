@@ -21,3 +21,13 @@
 4. Click Login.
 
 **Expected Result:** Login is rejected and an error message appears.
+## TC-003: Empty Password
+**Objective:** Verify login behavior when the password is empty.
+
+**Steps:**
+1. Open the login page.
+2. Enter a valid username.
+3. Leave the password field empty.
+4. Click Login.
+
+**Expected Result:** Login is rejected and a password-required message appears.
